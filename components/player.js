@@ -15,7 +15,7 @@ const LiveVideoPlayerWithPreRollAndDAI = ({ preRollAdUrl, liveStreamUrlWithDAIKe
       sources: [
         {
           src: preRollAdUrl, // Start with pre-roll ad source
-          type: 'video/mp4' // Assuming the pre-roll ad is an MP4
+          type: 'application/x-mpegURL' // Assuming the pre-roll ad is an MP4
         }
       ]
     });
