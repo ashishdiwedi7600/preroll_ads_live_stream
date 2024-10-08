@@ -7,21 +7,7 @@ export default function Home() {
 
 
   useEffect(() => {
-		if (true) {
-			
-				var s = document.createElement('script'),
-					el = document.getElementsByTagName('script')[0];
-				s.defer = true;
-				s.src = `//imasdk.googleapis.com/js/sdkloader/ima3.js`;
-				el.parentNode.insertBefore(s, el);
-
-				var sn = document.createElement('script'),
-					eln = document.getElementsByTagName('script')[0];
-				sn.defer = true;
-				sn.src = `///imasdk.googleapis.com/js/sdkloader/ima3_dai.js`;
-				eln.parentNode.insertBefore(sn, eln);
-			
-		}
+		
 	}, []);
   const preRollAdUrl = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpreonly&ciu_szs=300x250%2C728x90&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&correlator=';
   const liveStreamUrlWithDAIKey = 'https://dai.google.com/linear/hls/pb/event/c-rArva4ShKVIAkNfy6HUQ/stream/8ac4cf77-7558-40fe-bf56-e58c7002837e:TPE/master.m3u8?dai_key=c-rArva4ShKVIAkNfy6HUQ';
